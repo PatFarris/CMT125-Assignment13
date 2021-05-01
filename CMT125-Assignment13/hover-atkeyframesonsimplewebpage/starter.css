@@ -1,0 +1,227 @@
+
+html, body {
+    text-align: center;
+    }
+    p {text-align: left;}
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background: #697281;
+        text-align: left;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #F1F5F8;
+        background-color:#679159;
+    }
+    *
+    {
+      margin: 0 auto 0 auto;
+     text-align:left;}
+    
+    #page
+    {
+      margin: 0 auto 0 auto; 
+      margin-top:25px;
+      display: block; 
+      height:auto;
+      position: relative; 
+      overflow: hidden; 
+      background: #679159 url(https://www.html.am/templates/downloads/bryantsmith/greencreative/background.png) repeat-y;
+      width: 738px;
+      animation-name: fadein;
+      animation-duration: 5s;
+      animation-iteration-count: 1;
+    }
+
+    @keyframes fadein {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    #header
+    {
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/header.png);
+    background-repeat:no-repeat;
+    height:111px;
+    width:738px;
+    }
+    
+    #headerTitle
+    {
+    position:relative;
+    left:30px;
+    top:30px;
+    color:#283823;
+    text-align:left;
+    font-size:34px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    #headerSubText
+    {
+    position:relative;
+    left:33px;
+    top:30px;
+    color:#679159;
+    text-align:left;
+    font-size:16px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    animation-name: slide;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes slide {
+      0% {
+        margin-left: 0;
+      }
+
+      50% {
+        margin-left: 23%;
+      }
+
+      100% {
+        margin-left: 0;
+      }
+    }
+    
+    
+    #bar
+    {
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/bar.png);
+    background-repeat:no-repeat;
+    height:55px;
+    width:750px;
+    line-height:55px;
+    padding-left:20px;
+    padding-right:20px;
+    }
+    
+    #bar a
+    {
+    font-size:13px;
+    font-weight:bold;
+    color:#FBFDFB;
+    margin-left:28px;
+    margin-right:28px;
+    }
+    
+    #bar a:hover
+    {
+    color:#C7E0C2;
+    }
+    
+    
+    
+    .contentTitle
+    {
+    width:676px;
+    height:37px;
+    margin-top:20px;
+    margin-left:25px;
+    margin-right:25px;
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/tab_back.png);
+    background-repeat:no-repeat;
+    
+    }
+    
+    .contentTitle h1
+    {
+    margin-left:21px;
+    padding-top:8px;
+    font-size:17px;
+    font-weight:bold;
+    color:#071027;
+    }
+    
+    .comments
+    {
+    font-size:11px;
+    font-style:italic;
+    }
+    
+    .contentText
+    {
+    width:680px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:13px;
+    color:#030712;
+    line-height:30px;
+    }
+    
+    a
+    {
+    text-decoration:none;
+    color:#152413;
+    }
+    
+    a:hover
+    {
+    color:#597A41;
+    }
+    
+    
+    #footer {
+    width: 738px;
+    height:53px;
+    background: url(https://www.html.am/templates/downloads/bryantsmith/greencreative/footer.png) no-repeat;
+    text-align:center;
+    font-size:9px;
+    color:#152413;
+    padding-top:38px;
+    }
+    
+#bar a:hover {
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 25px;
+  padding: 3px;
+  transition: 1s;
+}
+
+#header:hover #headertitle {
+  margin-right: 50%;
+  transform: translate(50%);
+  transition: 3s;
+}
+
+#header:hover #headersubtext {
+  color: black;
+  transition: 3s;
+}
+
+.contenttext:hover, .contenttext a:hover {
+  transition: 2s;
+  background-color: #597A41;
+  color: white;
+  border-radius: 25px;
+}
+
+.contenttitle:hover h1 {
+  display: inline-block;
+  transform: scale(1.2);
+  transition: 2s;
+}
+
+#footer p {
+  margin-left: 65%;
+  transform: translate(-65%);
+}
+
+#footer:hover p, #footer:hover p a {
+  margin-top: 25px;
+  color: white;
+  font-size: 115%;
+  transition: 1s;
+  transition-timing-function: ease-out;
+}

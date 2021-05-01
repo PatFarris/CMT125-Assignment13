@@ -1,0 +1,17 @@
+Below are the 7 changes I made to the starter code provided:
+
+(All hover effects include a transition property for smoother transitions)
+
+1. Added a hover effect to the links within the nav bar that triggers a new color, background color, border radius, and font size (with a bit of padding for aesthetic purposes).
+
+2. Added 2 separate hover effects to the header section. The first moves the header title into a centered position, and the second changes the color of the header subtext to match that of the title.
+
+3. A hover effect attached to the .contentText class that alters the color, background color, and border radius.
+
+4. A hover effect for the h1 elements with the #contentTitle id which increase the scale of said element.
+
+5. A final hover effect for the #footer section that lowers the text on the page (using margin-top), and changes the color and font size.
+
+6. A one-time animation for when the page is first loaded. The content is faded in using a keyframe that brings the opacity from 0 to 1.
+
+7. An infinite animation using a keyframe to bounce the #headerSubText section from side to side (utilizing margin once again).
